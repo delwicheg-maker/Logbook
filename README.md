@@ -1,12 +1,12 @@
 # 📋 Logbook Digital
 
-> **Registre numérique pour bâtiment résidentiel dédié au suivi et à l'enregistrement des interventions techniques.**
+> **Registre numérique pour bâtiment résidentiel dédié au suivi et à l'enregistrement des intervenants techniques.**
 
 ---
 
 ## 🚀 Accès à l'application
 📲 **[Ouvrir le Logbook WebApp](https://delwicheg-maker.github.io/Logbook/)**  
-*(Optimisé pour accès direct via QR Code à l'entrée du bâtiment)*
+*(Optimisé pour accès direct via QR Code)*
 
 ---
 
@@ -15,25 +15,28 @@
 **Logbook Digital** simplifie la gestion technique des copropriétés. Il permet aux prestataires, techniciens et membres du conseil de consigner leurs passages et interventions directement depuis leur smartphone.
 
 ### ✨ Fonctionnalités clés :
-* 📱 **Interface Mobile First :** Conçue pour une saisie rapide sur le terrain.
-* 📊 **Enregistrement en temps réel :** Synchronisation directe avec une base de données centralisée.
-* 🔒 **Accès simplifié :** Pas d'installation requise, lancement immédiat par QR Code.
+* 📱 **Interface Mobile First :** Saisie rapide et claire sur le terrain.
+* 📊 **Enregistrement direct :** Centralisation automatique des données.
+* 🔒 **Accès sans friction :** Lancement immédiat via QR Code (sans installation).
+
+---
+
+## 📌 État du projet
+
+| Module / Étape | Statut | Détails |
+| :--- | :---: | :--- |
+| **Hébergement GitHub Pages** | 🟢 Terminé | Interface Web accessible en ligne |
+| **Formulaire de saisie** | 🟢 Terminé | Structure HTML/CSS validée |
+| **Liaison Apps Script & Sheets** | 🟧 En cours | Traitement des données et écriture |
+| **Déploiement du QR Code** | ⏳ À venir | Impresssion et affichage à l'entrée |
 
 ---
 
 ## 🏗️ Architecture technique
 
-* **Front-end :** HTML5 / CSS3 (Hébergé sur GitHub Pages)
+* **Front-end :** HTML5 / CSS3 (GitHub Pages)
 * **Back-end & API :** Google Apps Script
 * **Base de données :** Google Sheets
-
----
-
-## 🛠️ Utilisation
-
-1. Scannez le **QR Code** présent sur place.
-2. Renseignez l'intervention (Nom du prestataire, objet de la visite, détails).
-3. Validez : l'enregistrement est immédiatement acté.
 
 ---
 
