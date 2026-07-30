@@ -47,7 +47,20 @@ Track the current progress of the project and follow its development milestones.
 > **Important:** This public version provides only partial access to the application.
 > The complete workflow is available exclusively on-site, where the QR Code and location verification enable all application features.
 
+
 📲 **[Open the Logbook WebApp](https://delwicheg-maker.github.io/Logbook/)**
+
+---
+
+## 📬 Contact
+
+Would you like to discover the complete version of Logbook Digital or discuss the project?
+
+Feel free to contact me in French, English or … any other language:
+
+📧 **delwiche.g@gmail.com**
+
+🐙 **github.com/delwicheg**
 
 ---
 
