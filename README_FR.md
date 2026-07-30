@@ -45,7 +45,14 @@ Il vient remplacer l'ancien registre papier des concierges pour consigner préci
 * **Base de données :** Google Sheets
 
 ---
+---
 
+<p align="center">
+
+⬅️ **[Retour au README principal](README.md)**  
+
+</p>
 <p align="center">
   <i>Développé avec précision & une touche de surréalisme bruxellois. 🇧🇪</i>
 </p>
+
