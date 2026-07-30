@@ -30,15 +30,21 @@ Choose your preferred language to explore the complete documentation.
 
 | 🇫🇷 Français | 🇬🇧 English |
 |:------------|:------------|
-| **Complete French documentation**<br><br>❯ **[README Français](README.fr.md)** | **Complete English documentation**<br><br>❯ **[README English](README.en.md)** |
+| **Complete French documentation**<br><br>❯ **[README Français](README_FR.md)** | **Complete English documentation**<br><br>❯ **[README English](README_EN.md)** |
 
 ---
 
-# 📍 Project Status
+# 📍 Project Roadmap
 
-Follow the project's evolution, completed milestones and upcoming developments.
+Track the current progress of the project and follow its development milestones.
 
 ❯ **[Project Roadmap (FR / EN)](ROADMAP.md)**
+
+---
+
+# 🚀 Access the Application
+
+📲 **[Open the Logbook WebApp](https://delwicheg-maker.github.io/Logbook/)**
 
 ---
 
