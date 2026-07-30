@@ -30,7 +30,7 @@ Choose your preferred language to explore the complete documentation.
 
 | 🇫🇷 Français | 🇬🇧 English |
 |:------------|:------------|
-| **Complete French documentation**<br><br>❯ **[README Français](README_FR.md)** | **Complete English documentation**<br><br>❯ **[README English](README_EN.md)** |
+| **Documentation complète en français**<br><br>❯ **[README Français](README_FR.md)** | **Complete English documentation**<br><br>❯ **[README English](README_EN.md)** |
 
 ---
 
