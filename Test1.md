@@ -1,27 +1,49 @@
-<div align="left">
+<table>
+<tr>
 
-# Logbook Digital
+<td width="210" valign="bottom">
 
-### The digital transformation of residential building maintenance.
+<img src="assets/images/Ouvrier Quitter.PNG" width="190" alt="Logbook Digital">
 
-*A modern, mobile-first solution that simplifies the management of technical interventions through QR Codes and Google Workspace.*
+</td>
 
-</div>
+<td valign="bottom">
+
+<h1>Logbook Digital</h1>
+
+<h2>📱 Check In. Check Out. That's It.</h2>
+
+<p><strong>The digital transformation of residential building maintenance.</strong></p>
+
+<p><em>A modern, mobile-first solution that simplifies the management of technical interventions through QR Codes and Google Workspace.</em></p>
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-## 🚀 Discover Logbook Digital
+# 🚀 Discover Logbook Digital
 
-Choose the documentation that best suits you.
+Choose your preferred language to explore the complete documentation.
 
 | 🇫🇷 Français | 🇬🇧 English |
-|:------------|:-----------|
-| **Registre numérique pour bâtiment résidentiel dédié au suivi et à l'enregistrement des intervenants techniques.**<br><br>➡️ **[Documentation française](README.fr.md)** | **Digital logbook for residential buildings dedicated to tracking and recording technical service providers.**<br><br>➡️ **[English documentation](README.en.md)** |
+|:------------|:------------|
+| **Complete French documentation**<br><br>❯ **[README Français](README.fr.md)** | **Complete English documentation**<br><br>❯ **[README English](README.en.md)** |
 
 ---
 
-## 📍 Project Status
+# 📍 Project Status
 
-Curious to know where the project stands?
+Follow the project's evolution, completed milestones and upcoming developments.
 
-➡️ **[Project Roadmap (FR / EN)](ROADMAP.md)**
+❯ **[Project Roadmap (FR / EN)](ROADMAP.md)**
+
+---
+
+<div align="center">
+
+**Google Apps Script • GitHub Pages • Google Sheets • Google Drive**
+
+</div>
