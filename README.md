@@ -42,7 +42,10 @@ Track the current progress of the project and follow its development milestones.
 
 ---
 
-# 🚀 Access the Application
+## 🚀 Access the Application
+
+> **Important:** This public version provides only partial access to the application.
+> The complete workflow is available exclusively on-site, where the QR Code and location verification enable all application features.
 
 📲 **[Open the Logbook WebApp](https://delwicheg-maker.github.io/Logbook/)**
 
