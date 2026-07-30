@@ -1,66 +1,53 @@
 # 📋 Logbook Digital
 
-> **Registre numérique pour bâtiment résidentiel dédié au suivi et à l'enregistrement des intervenants techniques.**
+> **Digital logbook for residential buildings dedicated to tracking and recording technical service providers.**
 
 ---
 
-## 🚀 Accès à l'application
-📲 **[Ouvrir le Logbook WebApp](https://delwicheg-maker.github.io/Logbook/)**  
-*(Optimisé pour un accès direct via QR Code à l'entrée du bâtiment)*
+## 🚀 Access the Application
+
+📲 **[Open the Logbook WebApp](https://delwicheg-maker.github.io/Logbook/)**  
+*(Optimized for direct access via QR Code at the building entrance.)*
 
 ---
 
-## 💡 Présentation du projet
+## 💡 Project Overview
 
-**Logbook Digital** modernise et simplifie la gestion technique des copropriétés. 
+**Logbook Digital** modernizes and simplifies technical management for residential buildings.
 
-Il vient remplacer l'ancien registre papier des concierges pour consigner précisément chaque passage et intervention technique dans l'immeuble. 
+It replaces the traditional paper logbook used by building concierges, providing an accurate digital record of every visit and technical intervention within the building.
 
-### 🌟 Avantages clés :
-* 📱 **Accès direct Smartphone :** Permet aux prestataires et techniciens qui interviennent dans le bâtiment d'enregistrer leur passage sans installation de software préalable via un accès à un QR code simplement.
-* ⚡ **Information instantanée :** Renseigne et alerte immédiatement la concierge, le syndic et le conseil de copropriété lors d'une intervention.
-* 📂 **Centralisation :** Évite la perte d'informations et conserve une trace numérisée et propre des accès.
+### 🌟 Key Benefits
 
----
-
-## 🎯 Principes fondateurs
-
-* **Simplicité avant richesse fonctionnelle :** Privilégier un outil épuré et immédiatement compréhensible.
-* **Adoption terrain avant sophistication technique :** Un outil utile est d'abord un outil utilisé par les intervenants.
-* **Réduction maximale des frictions utilisateur :** Aucun obstacle ni étape superflue lors de la saisie.
-* **Collecte uniquement des données réellement utiles :** Pas de sur-collecte d'informations.
-* **Préférer l’information qualifiée au blocage de l’utilisateur :** Favoriser la fluidité plutôt que des contraintes rigides.
-* **Respecter la vie privée :** La géolocalisation vérifie une présence ponctuelle sans conserver les données GPS.
-* **Ne pas devenir un gendarme :** Sécuriser et tracer sans donner l’impression de contrôler.
-* **Technologie accessible et à faible coût :** Choisir des solutions simples et pérennes lorsqu'elles répondent au besoin.
-
-> 🧭 *Chaque évolution du projet est examinée à travers une question simple : **augmente-t-elle inutilement le temps ou la charge imposée à l’intervenant ?***
+* 📱 **Direct Smartphone Access:** Service providers and technicians can register their visit simply by scanning a QR Code, with no software installation required.
+* ⚡ **Instant Notifications:** Immediately informs the concierge, the property manager and the co-ownership council whenever an intervention is recorded.
+* 📂 **Centralized Records:** Prevents information loss by maintaining a clean, reliable and fully digital history of building access.
 
 ---
 
-## 📌 État du projet (Roadmap)
+## 🎯 Core Principles
 
-| Module / Étape | Statut | Détails |
-| :--- | :---: | :--- |
-| **Hébergement GitHub Pages** | 🟢 Terminé | Interface Web accessible en ligne |
-| **Formulaire de saisie** | 🟢 Terminé | Structure HTML/CSS optimisée mobile |
-| **Liaison Apps Script & Sheets** | 🟧 En cours | Traitement des données et enregistrement |
-| **Historique des interventions** | ⏳ À faire | Consultation des passages précédents |
-| **Multilinguisme (FR/NL/EN)** | ⏳ À faire | Interface adaptée aux intervenants internationaux |
-| **Déploiement QR Code sur site** | ⏳ À faire | Impression et affichage à l'entrée du bâtiment |
+* **Simplicity over feature richness:** Prioritize a clean and immediately understandable tool.
+* **Field adoption over technical sophistication:** A useful tool is first and foremost one that people actually use.
+* **Minimize user friction:** Eliminate unnecessary steps during data entry.
+* **Collect only genuinely useful information:** Avoid collecting unnecessary data.
+* **Prefer meaningful information over blocking the user:** Encourage a smooth user experience rather than rigid constraints.
+* **Respect privacy:** Geolocation is used only to verify presence at a specific moment and does not retain GPS data.
+* **Do not become a policing tool:** Provide security and traceability without making users feel monitored.
+* **Accessible and cost-effective technology:** Choose simple, sustainable solutions whenever they meet the project's needs.
 
-*Légende : 🟢 Terminé | 🟧 En cours de finalisation | ⏳ À faire / Prochaine étape*
+> 🧭 *Every new feature is evaluated through one simple question: **Does it unnecessarily increase the time or effort required from the service provider?***
 
 ---
 
-## 🏗️ Architecture technique
+## 🏗️ Technical Architecture
 
-* **Front-end :** HTML5 / CSS3 (Hébergé sur GitHub Pages)
-* **Back-end & API :** Google Apps Script
-* **Base de données :** Google Sheets
+* **Front-end:** HTML5 / CSS3 (Hosted on GitHub Pages)
+* **Back-end & API:** Google Apps Script
+* **Database:** Google Sheets
 
 ---
 
 <p align="center">
-  <i>Développé avec précision & une touche de surréalisme bruxellois. 🇧🇪</i>
+  <i>Developed with precision — and a touch of Brussels surrealism. 🇧🇪</i>
 </p>
