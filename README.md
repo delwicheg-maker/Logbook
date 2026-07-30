@@ -23,6 +23,21 @@ Il vient remplacer l'ancien registre papier des concierges pour consigner préci
 
 ---
 
+## 🎯 Principes fondateurs
+
+* **Simplicité avant richesse fonctionnelle :** Privilégier un outil épuré et immédiatement compréhensible.
+* **Adoption terrain avant sophistication technique :** Un outil utile est d'abord un outil utilisé par les intervenants.
+* **Réduction maximale des frictions utilisateur :** Aucun obstacle ni étape superflue lors de la saisie.
+* **Collecte uniquement des données réellement utiles :** Pas de sur-collecte d'informations.
+* **Préférer l’information qualifiée au blocage de l’utilisateur :** Favoriser la fluidité plutôt que des contraintes rigides.
+* **Respecter la vie privée :** La géolocalisation vérifie une présence ponctuelle sans conserver les données GPS.
+* **Ne pas devenir un gendarme :** Sécuriser et tracer sans donner l’impression de contrôler.
+* **Technologie accessible et à faible coût :** Choisir des solutions simples et pérennes lorsqu'elles répondent au besoin.
+
+> 🧭 *Chaque évolution du projet est examinée à travers une question simple : **augmente-t-elle inutilement le temps ou la charge imposée à l’intervenant ?***
+
+---
+
 ## 📌 État du projet (Roadmap)
 
 | Module / Étape | Statut | Détails |
