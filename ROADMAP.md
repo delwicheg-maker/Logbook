@@ -1,6 +1,6 @@
 # 📍 Logbook Digital Roadmap
 
-This roadmap tracks the current progress of the Logbook Digital project and outlines the main development milestones.
+_This roadmap tracks the current progress of the Logbook Digital project and outlines the main development milestones._
 
 *Cette feuille de route présente l'état d'avancement actuel du projet Logbook Digital et les principales étapes de son développement.*
 
