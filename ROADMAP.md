@@ -22,3 +22,11 @@ This roadmap tracks the current progress of the Logbook Digital project and outl
 - 🟢 Completed / Terminé
 - 🟧 In Progress / En cours de finalisation
 - ⏳ Planned / À faire – Prochaine étape
+
+---
+
+<p align="center">
+
+⬅️ **[Return to the main README / Retour au README principal](README.md)**
+
+</p>
