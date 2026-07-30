@@ -47,7 +47,13 @@ It replaces the traditional paper logbook used by building concierges, providing
 * **Database:** Google Sheets
 
 ---
+---
 
+<p align="center">
+
+⬅️ **[Return to the main README](README.md)**  
+
+</p>
 <p align="center">
   <i>Developed with precision — and a touch of Brussels surrealism. 🇧🇪</i>
 </p>
