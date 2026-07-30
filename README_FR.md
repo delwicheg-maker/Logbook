@@ -38,21 +38,6 @@ Il vient remplacer l'ancien registre papier des concierges pour consigner préci
 
 ---
 
-## 📌 État du projet (Roadmap)
-
-| Module / Étape | Statut | Détails |
-| :--- | :---: | :--- |
-| **Hébergement GitHub Pages** | 🟢 Terminé | Interface Web accessible en ligne |
-| **Formulaire de saisie** | 🟢 Terminé | Structure HTML/CSS optimisée mobile |
-| **Liaison Apps Script & Sheets** | 🟧 En cours | Traitement des données et enregistrement |
-| **Historique des interventions** | ⏳ À faire | Consultation des passages précédents |
-| **Multilinguisme (FR/NL/EN)** | ⏳ À faire | Interface adaptée aux intervenants internationaux |
-| **Déploiement QR Code sur site** | ⏳ À faire | Impression et affichage à l'entrée du bâtiment |
-
-*Légende : 🟢 Terminé | 🟧 En cours de finalisation | ⏳ À faire / Prochaine étape*
-
----
-
 ## 🏗️ Architecture technique
 
 * **Front-end :** HTML5 / CSS3 (Hébergé sur GitHub Pages)
