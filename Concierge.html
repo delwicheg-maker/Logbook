@@ -1,5 +1,10 @@
 <!-- ============================================================
      LOGBOOK DIGITAL — Wrapper GitHub Pages — Dashboard CONCIERGE
+     VERSION 1.5 — Robustesse de l'écran de chargement face au cache de
+                   navigation (bfcache) : se réaffiche correctement même
+                   en revenant sur la page via un lien (ex. "Inscrire un
+                   visiteur" puis retour), au lieu de rester masqué et
+                   de donner une impression d'écran blanc.
      VERSION 1.4 — Optimisation de la vitesse perçue au changement
                    d'app : préconnexion réseau anticipée (preconnect/
                    dns-prefetch vers script.google.com) + écran de
@@ -84,9 +89,32 @@
     onload="document.getElementById('ecranChargement').style.opacity='0'; setTimeout(function(){ document.getElementById('ecranChargement').style.display='none'; }, 250);"
   ></iframe>
   <script>
+    var urlBase = "https://script.google.com/macros/s/AKfycbxmpZPhq-TftwUenRqWjByP7hRTVoB9gFrfHWMP8WjGvgyKF7cxH044g9OzAxU0O1jHPA/exec?profil=concierge";
     if (window.location.search) {
-      document.getElementById('logbookFrame').src = "https://script.google.com/macros/s/AKfycbxmpZPhq-TftwUenRqWjByP7hRTVoB9gFrfHWMP8WjGvgyKF7cxH044g9OzAxU0O1jHPA/exec?profil=concierge" + window.location.search;
+      document.getElementById('logbookFrame').src = urlBase + window.location.search;
     }
+
+    // Robustesse face au cache de navigation mobile (bfcache) : quand on revient
+    // sur cette page (ex. via "Retour au tableau de bord"), certains navigateurs
+    // restaurent l'état exact précédent, y compris l'écran de chargement déjà
+    // masqué — ce qui donnait une impression d'écran blanc. On force la
+    // réinitialisation correcte à chaque affichage de la page.
+    window.addEventListener('pageshow', function(evenement) {
+      var ecran = document.getElementById('ecranChargement');
+      if (evenement.persisted) {
+        // Page restaurée depuis le cache : le contenu est déjà prêt, on masque
+        // immédiatement sans animation (pas besoin de re-attendre).
+        ecran.style.transition = 'none';
+        ecran.style.opacity = '0';
+        ecran.style.display = 'none';
+      } else {
+        // Chargement normal : l'écran de transition doit être visible en
+        // attendant le chargement de l'iframe.
+        ecran.style.transition = '';
+        ecran.style.display = 'flex';
+        ecran.style.opacity = '1';
+      }
+    });
   </script>
 </body>
 </html>
