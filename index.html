@@ -1,3 +1,18 @@
+<!-- ============================================================
+     LOGBOOK DIGITAL — Wrapper GitHub Pages — App OUVRIER (QR Code)
+     VERSION 1.2 — L'iframe transmet désormais les paramètres d'URL
+                   de la page (ex. ?origine=concierge, ?reprendre=42)
+                   vers l'URL Apps Script réelle. Permet aux boutons
+                   du Dashboard Concierge ("Inscrire un visiteur",
+                   "À clôturer") de rediriger vers CE wrapper plutôt
+                   que vers l'URL Google brute — évite la bannière
+                   grise "Cette application a été créée par..." qui
+                   s'affichait en sortant du wrapper.
+     VERSION 1.1 — Ajout icône casque (fond vert) + titre "Logbook
+                   Digital" pour "Ajouter à l'écran d'accueil".
+     VERSION 1.0 — Wrapper iframe initial (résolution des soucis
+                   d'affichage mobile / sandbox iOS-iPadOS).
+     ============================================================ -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -30,8 +45,17 @@
 </head>
 <body>
   <iframe
+    id="logbookFrame"
     src="https://script.google.com/macros/s/AKfycbxmpZPhq-TftwUenRqWjByP7hRTVoB9gFrfHWMP8WjGvgyKF7cxH044g9OzAxU0O1jHPA/exec"
     allow="geolocation"
   ></iframe>
+  <script>
+    // Transmet les paramètres éventuels de CETTE page (?origine=concierge,
+    // ?reprendre=42, ...) vers l'URL réelle chargée dans l'iframe.
+    if (window.location.search) {
+      document.getElementById('logbookFrame').src =
+        "https://script.google.com/macros/s/AKfycbxmpZPhq-TftwUenRqWjByP7hRTVoB9gFrfHWMP8WjGvgyKF7cxH044g9OzAxU0O1jHPA/exec" + window.location.search;
+    }
+  </script>
 </body>
 </html>
