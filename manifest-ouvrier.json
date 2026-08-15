@@ -8,7 +8,7 @@
   "theme_color": "#16A34A",
   "icons": [
     {
-      "src": "icone-ouvrier.png",
+      "src": "assets/images/icone-ouvrier.png",
       "sizes": "180x180",
       "type": "image/png"
     }
