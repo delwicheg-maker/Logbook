@@ -1,10 +1,12 @@
 <!-- ============================================================
      LOGBOOK DIGITAL — Wrapper GitHub Pages — Dashboard CONCIERGE
-     VERSION 1.8 — Correctif d'affichage Android : même correctif que
-                   index.html v1.8 — forçage explicite du rendu après
-                   le chargement de l'iframe, pour éviter un écran
-                   figé nécessitant un contact tactile pour se
-                   débloquer.
+     VERSION 1.9 — ANNULATION de la v1.8 (même correctif qu'index.html
+                   v1.9) : le forçage de rendu via masquage du body a
+                   provoqué un blocage complet sur iPhone. Retour au
+                   simple masquage de l'écran de chargement.
+     VERSION 1.8 — [ANNULÉE, voir ci-dessus] Correctif d'affichage
+                   Android : forçage explicite du rendu après le
+                   chargement de l'iframe.
      VERSION 1.7 — Rangement : l'icône déménage de la racine vers
                    assets/images/icone-concierge.png, pour un dépôt
                    plus propre. Simple changement de chemin, aucun
@@ -83,7 +85,7 @@
     id="logbookFrame"
     src="https://script.google.com/macros/s/AKfycbxmpZPhq-TftwUenRqWjByP7hRTVoB9gFrfHWMP8WjGvgyKF7cxH044g9OzAxU0O1jHPA/exec?profil=concierge"
     allow="geolocation"
-    onload="var ecran=document.getElementById('ecranChargement'); ecran.style.display='none'; void document.body.offsetHeight; document.body.style.display='none'; void document.body.offsetHeight; document.body.style.display='';"
+    onload="document.getElementById('ecranChargement').style.display='none';"
   ></iframe>
   <script>
     var urlBase = "https://script.google.com/macros/s/AKfycbxmpZPhq-TftwUenRqWjByP7hRTVoB9gFrfHWMP8WjGvgyKF7cxH044g9OzAxU0O1jHPA/exec?profil=concierge";
