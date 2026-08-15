@@ -1,12 +1,16 @@
 <!-- ============================================================
      LOGBOOK DIGITAL — Wrapper GitHub Pages — App OUVRIER (QR Code)
+     VERSION 1.7 — Rangement : l'icône déménage de la racine vers
+                   assets/images/icone-ouvrier.png, pour un dépôt
+                   plus propre. Simple changement de chemin, aucun
+                   changement de comportement.
      VERSION 1.6 — Icône remplacée : texte base64 (15-30 Ko à décoder
                    à chaque chargement, coûteux en calcul sur
                    d'anciens téléphones) remplacé par un vrai fichier
-                   image (icone-ouvrier.png) hébergé directement sur
-                   GitHub Pages — chargement asynchrone standard,
-                   mis en cache par le navigateur, aucun décodage
-                   requis.
+                   image (icone-ouvrier.png, alors à la racine)
+                   hébergé directement sur GitHub Pages — chargement
+                   asynchrone standard, mis en cache par le
+                   navigateur, aucun décodage requis.
      VERSION 1.5 — Robustesse de l'écran de chargement face au cache
                    de navigation (bfcache).
      VERSION 1.4 — Optimisation de la vitesse perçue (preconnect +
@@ -26,8 +30,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="manifest" href="manifest-ouvrier.json">
-  <link rel="icon" type="image/png" href="icone-ouvrier.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="icone-ouvrier.png">
+  <link rel="icon" type="image/png" href="assets/images/icone-ouvrier.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icone-ouvrier.png">
   <link rel="preconnect" href="https://script.google.com">
   <link rel="preconnect" href="https://script.googleusercontent.com">
   <link rel="dns-prefetch" href="https://script.google.com">
@@ -71,7 +75,7 @@
 </head>
 <body>
   <div id="ecranChargement">
-    <img src="icone-ouvrier.png" alt="">
+    <img src="assets/images/icone-ouvrier.png" alt="">
     <p>Chargement…</p>
     <div class="spinner"></div>
   </div>
